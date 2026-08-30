@@ -1,0 +1,29 @@
+[controls]
+# Inverted from the dark theme: control fills are black at low alpha, so they
+# read as recessed against the light pane instead of glowing on top of it.
+normal-color        = "#1d1d1f"
+normal-fill-alpha   = 0.06
+normal-border       = "#000000"
+normal-border-width = 1
+normal-border-alpha = 0.14
+
+hover-cursor-color        = "#1d1d1f"
+hover-cursor-fill-alpha   = 0.1
+hover-cursor-border       = "#000000"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.22
+
+focus-color        = "#1d1d1f"
+focus-fill-alpha   = 0.1
+focus-border       = "#007aff"
+focus-border-width = 1
+focus-border-alpha = 0.9
+
+selected-color        = "#007aff"
+selected-fill-alpha   = 0.85
+selected-border       = "#007aff"
+selected-border-width = 0
+selected-border-alpha = 1.0
+
+pressed-fill-alpha   = 0.18
+selection-fill-alpha = 0.28

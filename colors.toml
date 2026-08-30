@@ -1,0 +1,44 @@
+# Apple Glass Light — macOS light-mode system palette.
+#
+# The base colours are Apple's *accessible* variants (systemRed #d70015 rather
+# than #ff3b30, and so on), because these double as terminal ANSI colours and
+# the vivid system set is unreadable as text on a light ground. The vivid set
+# is kept for the bright_* slots, where it reads as emphasis rather than body.
+
+mode = "light"
+
+accent = "#007aff"
+selection = "#d1d1d6"
+muted = "#86868b"   # Apple secondaryLabel. Feeds ANSI bright-black (dim text);
+                    # #aeaeb2 was too faint to read on a light ground.
+
+background = "#f5f5f7"
+dark_background = "#e8e8ed"
+darker_background = "#d8d8de"
+lighter_background = "#ffffff"
+
+foreground = "#1d1d1f"
+dark_foreground = "#86868b"
+light_foreground = "#3a3a3c"
+bright_foreground = "#000000"
+
+red = "#d70015"
+yellow = "#a05a00"
+orange = "#c93400"
+green = "#248a3d"
+cyan = "#0071a4"
+blue = "#0040dd"
+magenta = "#8944ab"
+brown = "#7f6545"
+
+bright_red = "#ff3b30"
+bright_yellow = "#b8860b"
+bright_green = "#34c759"
+bright_cyan = "#32ade6"
+bright_blue = "#007aff"
+bright_magenta = "#af52de"
+
+# On light glass the rim is a dark hairline, not a highlight: the pane is
+# brighter than what surrounds it, so the edge reads as a shadow.
+hyprland_active_border = "rgba(00000059) rgba(00000018) 135deg"
+hyprland_inactive_border = "rgba(00000014)"

@@ -1,0 +1,10 @@
+[bar]
+# Light glass needs a higher alpha than dark: the bar sits against the brightest
+# part of most light wallpapers, and at 0.55 the text loses its ground.
+background       = "#ffffff"
+background-alpha = 0.68
+text             = "#1d1d1f"
+active           = "#d70015"
+scale-with-font  = true
+size-horizontal  = 28
+size-vertical    = 30
