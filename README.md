@@ -1,6 +1,6 @@
 # Apple Glass Light
 
-A macOS-inspired light theme for [Omarchy](https://omarchy.org): deep
+A macOS-inspired light theme for [Omarchy](https://omarchy.org): bright
 translucent glass blur, vibrancy-tuned surfaces, and soft generated
 gradient wallpapers.
 
