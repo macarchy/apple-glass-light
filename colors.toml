@@ -1,15 +1,21 @@
-# Apple Glass Light — macOS light-mode system palette.
+# Apple Glass Light — macOS light-mode system palette, darkened for glass.
 #
-# The base colours are Apple's *accessible* variants (systemRed #d70015 rather
-# than #ff3b30, and so on), because these double as terminal ANSI colours and
-# the vivid system set is unreadable as text on a light ground. The vivid set
-# is kept for the bright_* slots, where it reads as emphasis rather than body.
+# The base colours started as Apple's *accessible* variants (systemRed #d70015
+# rather than #ff3b30, and so on). On this theme they sit on a 0.70-alpha pane
+# over the aquarium, whose water pulls the effective terminal ground down to
+# about #95afcf at its darkest daytime — measured, not guessed — and at that ground even the
+# accessible set fell below 3:1. Every ANSI colour below is the minimal
+# darkening (hue and saturation kept) that reaches WCAG 3:1 on that ground,
+# and the muted grey reaches 4.5:1 because it carries body text (dim lines,
+# comments). The bright_* slots are no longer vivid: vivid is unreadable here.
+# See ~/Work/omarchy-mac docs and the contrast script in the session that
+# tuned this (2026-09-02).
 
 mode = "light"
 
 accent = "#007aff"
 selection = "#d1d1d6"
-muted = "#86868b"   # Apple secondaryLabel. Feeds ANSI bright-black (dim text);
+muted = "#414144"   # Apple secondaryLabel. Feeds ANSI bright-black (dim text);
                     # #aeaeb2 was too faint to read on a light ground.
 
 background = "#f5f5f7"
@@ -18,25 +24,25 @@ darker_background = "#d8d8de"
 lighter_background = "#ffffff"
 
 foreground = "#1d1d1f"
-dark_foreground = "#86868b"
+dark_foreground = "#414144"
 light_foreground = "#3a3a3c"
 bright_foreground = "#000000"
 
-red = "#d70015"
-yellow = "#a05a00"
-orange = "#c93400"
-green = "#248a3d"
-cyan = "#0071a4"
+red = "#b80012"
+yellow = "#864c00"
+orange = "#aa2c00"
+green = "#1b682e"
+cyan = "#00618d"
 blue = "#0040dd"
-magenta = "#8944ab"
-brown = "#7f6545"
+magenta = "#7f3f9e"
+brown = "#6d573b"
 
-bright_red = "#ff3b30"
-bright_yellow = "#b8860b"
-bright_green = "#34c759"
-bright_cyan = "#32ade6"
-bright_blue = "#007aff"
-bright_magenta = "#af52de"
+bright_red = "#b70a00"
+bright_yellow = "#755507"
+bright_green = "#1b682f"
+bright_cyan = "#106086"
+bright_blue = "#0058b8"
+bright_magenta = "#8a24bd"
 
 # On light glass the rim is a dark hairline, not a highlight: the pane is
 # brighter than what surrounds it, so the edge reads as a shadow.

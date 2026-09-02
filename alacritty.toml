@@ -12,11 +12,11 @@ cursor = "#000000"
 
 [colors.search.matches]
 foreground = "#f5f5f7"
-background = "#a05a00"
+background = "#864c00"
 
 [colors.search.focused_match]
 foreground = "#f5f5f7"
-background = "#d70015"
+background = "#b80012"
 
 [colors.footer_bar]
 foreground = "#f5f5f7"
@@ -28,22 +28,22 @@ background = "#d1d1d6"
 
 [colors.normal]
 black = "#f5f5f7"
-red = "#d70015"
-green = "#248a3d"
-yellow = "#a05a00"
+red = "#b80012"
+green = "#1b682e"
+yellow = "#864c00"
 blue = "#0040dd"
-magenta = "#8944ab"
-cyan = "#0071a4"
+magenta = "#7f3f9e"
+cyan = "#00618d"
 white = "#1d1d1f"
 
 [colors.bright]
-black = "#86868b"
-red = "#ff3b30"
-green = "#34c759"
-yellow = "#b8860b"
-blue = "#007aff"
-magenta = "#af52de"
-cyan = "#32ade6"
+black = "#414144"
+red = "#b70a00"
+green = "#1b682f"
+yellow = "#755507"
+blue = "#0058b8"
+magenta = "#8a24bd"
+cyan = "#106086"
 white = "#000000"
 
 # Glass: the background alpha is the terminal-side half of the material --
