@@ -31,13 +31,16 @@ Close anything personal first — the shots are going into a public repo.
 
 Numbers are the intended gallery order.
 
-- [ ] **01 — hero: light glass over water.** Aquarium **on**. Two windows
-      overlapping by about a third: a terminal (foot or kitty, `btop` or
-      `fastfetch` running) in front, a browser or file manager behind it. Focus
+- [x] **01 — hero: light glass over water.** Aquarium **on**. A file manager
+      and a terminal (`btop`), overlapping only at the edge. Do *not* overlap
+      them by a third as this list first said: terminals are exempt from
+      compositor blur here, so a terminal laid over another window shows that
+      window's raw text through its own 0.70 alpha, and the result is mud. Keep
+      the terminal mostly over the water, where the exemption is the point. Focus
       the terminal so the front window carries the dark active hairline and the
       back one the fainter inactive one. Bar visible. Make sure a fish or a
       caustic highlight is visibly *behind* a pane, not beside it.
-- [ ] **02 — the same frame, aquarium off.** `omarchy-aquarium-toggle off`, put
+- [x] **02 — the same frame, aquarium off.** `omarchy-aquarium-toggle off`, put
       `backgrounds/1-daybreak.jpg` up, do not move a single window, capture
       again. 01 and 02 side by side is the argument. Turn the aquarium back on
       afterwards.
@@ -58,26 +61,29 @@ Numbers are the intended gallery order.
       matches highlighted, or `bat` on a source file. This is the shot that
       answers "surely light-on-glass is unreadable": every one of those colors
       was darkened until it cleared WCAG 3:1 on that exact ground.
-- [ ] **05 — depth stack.** Three or four terminals cascaded with visible
-      overlap. `blur.xray` means each pane blurs to the water rather than to the
-      pane below, so a light stack should not turn to grey mush — that is the
-      claim this shot has to back up.
+- [ ] **05 — depth stack.** Three or four *blurred* windows cascaded with
+      visible overlap. `blur.xray` means each pane blurs to the water rather
+      than to the pane below, so a light stack should not turn to grey mush,
+      and that is the claim this shot has to back up. Use GTK apps (files,
+      settings, text editor), **not** terminals: terminals carry
+      `no_blur = true`, so a terminal stack demonstrates nothing about xray.
 - [ ] **06 — the app launcher.** `SUPER + ALT + SPACE` (`omarchy-menu toggle
       apps`). Type a couple of characters so the list is filtered and one row
-      carries the blue selection. Windows still visible behind the grey scrim —
-      light mode dims toward grey, not toward black, and that should be legible
-      in the shot.
+      carries the blue selection. Do not expect to recognise the windows
+      behind it. Light mode does dim toward grey rather than black, but the menu
+      layer is blurred as well, and the two together leave a wash rather than a
+      readable desktop. That is correct behaviour, not a bug to shoot around.
 - [ ] **07 — the Omarchy menu.** `SUPER + SPACE` (`omarchy-menu toggle`), one
       submenu deep, so the scrim, the card and the selected row are all in
       frame.
-- [ ] **08 — the bar, close up.** Region-capture the top bar over a *busy* part
+- [x] **08 — the bar, close up.** Region-capture the top bar over a *busy* part
       of the wallpaper — that is where a 0.68-alpha light surface either holds
       its dark text or does not.
 
       ```sh
       omarchy screenshot region save
       ```
-- [ ] **09 — a notification on glass.** Trigger one and catch it before it
+- [x] **09 — a notification on glass.** Trigger one and catch it before it
       expires:
 
       ```sh
