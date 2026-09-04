@@ -20,8 +20,8 @@ wallpaper; it was simply not tuned there.
 
 Pairs with **[apple-glass](https://github.com/macarchy/apple-glass)**. The two
 switch automatically on the sun (sunrise and sunset for your location, or a
-fixed window) via `omarchy-auto-appearance` from
-[omarchy-mac](https://github.com/macarchy/omarchy-mac), the same way macOS's
+fixed window) via `macarchy-auto-appearance` from
+[macarchy-core](https://github.com/macarchy/macarchy-core), the same way macOS's
 "Auto" appearance setting works. Choosing any *other* theme is treated as an
 override, so the timer never yanks a deliberate choice out from under you.
 
@@ -158,7 +158,7 @@ toward black, the way macOS does.
 
 ## Gallery
 
-The dark twin, same windows, same moment. `omarchy-auto-appearance` swaps the
+The dark twin, same windows, same moment. `macarchy-auto-appearance` swaps the
 two at sunrise and sunset:
 
 ![Apple Glass, same arrangement](docs/media/12-dark.png)
