@@ -8,8 +8,8 @@
 # darkening (hue and saturation kept) that reaches WCAG 3:1 on that ground,
 # and the muted grey reaches 4.5:1 because it carries body text (dim lines,
 # comments). The bright_* slots are no longer vivid: vivid is unreadable here.
-# See ~/Work/macarchy-core docs and the contrast script in the session that
-# tuned this (2026-09-02).
+# See ~/Work/macarchy-core docs and its contrast script
+# (style/macarchy-bar-contrast) from the session that tuned this (2026-09-02).
 
 mode = "light"
 
