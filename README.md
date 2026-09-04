@@ -101,10 +101,6 @@ their own glass (`0.70` background alpha in `alacritty.toml`, `kitty.conf` and
 The compositor leaves them at `1.0` / `0.95` and skips blurring them, which keeps
 the scene behind crisp instead of frosting it into a featureless slab.
 
-Terminals are matched by Omarchy's own `terminal` tag rather than a hand-written
-class list, so per-app TUI ids (`org.omarchy.*`, `TUI.*`) are covered as they
-appear instead of silently rendering as one opaque window among glassy ones.
-
 ## Which surfaces are glass
 
 Shell surfaces are layer-shell, not windows, so each namespace opts in
