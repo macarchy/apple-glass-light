@@ -1,3 +1,5 @@
+![apple-glass-light banner](.github/banner.png)
+
 # Apple Glass Light
 
 A macOS-inspired **light** theme for [Omarchy](https://omarchy.org). Bright
